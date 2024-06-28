@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+    <title>Responsive Registration Form</title>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="form">
+        <form action=" " id="myForm" name="form" onsubmit="return validate()">
+        <div class="head"><h1>Registration</h1></div><br>
+        <div class="body">
+            <label for="username"> Username </label><br>
+           <input type="text" placeholder="Enter your username" name="username" id="username" required><br><br>
+           <label for="email">Email</label><br>
+           <input type="email" placeholder="Enter your email" name="email" id="email" required><br><br>
+           <label for="password">Password</label><br>
+           <input type="password" placeholder="Enter valid password" minlength="10" name="password" id="password" required>
+
+        </div>
+        <div class="btn">
+            <center>
+            <button type="submit">Submit</button>
+        </center>
+        </div>
+    </form>
+    </div>
+</body>
+<script src="registration.js"></script>
+</html>
